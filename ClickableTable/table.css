@@ -1,0 +1,21 @@
+table td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  color: yellow;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+table {
+  background-color: blue;
+}
+
+.clicked {
+	background-color: yellow;
+	color: blue;
+}
