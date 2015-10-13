@@ -65,3 +65,13 @@ BinaryTree.prototype.toArray = function() {
 	});
 	return result;
 }
+
+var ExtendedBinaryTree = function() {
+}
+
+ExtendedBinaryTree.prototype = Object.create(BinaryTree.prototype);
+ExtendedBinaryTree.prototype.constructor = ExtendedBinaryTree;
+
+ExtendedBinaryTree.prototype.remove = function() {
+    
+}

@@ -5,7 +5,7 @@ var changeStyle = function () {
 var tds = document.querySelectorAll('td');
 
 for (var i = 0, length = tds.length; i < length; i++) {
-	tds[i].addEventListener('click', changeStyle );
+	tds[i].addEventListener('click', chantyle );
 }
 
 
